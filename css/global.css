@@ -1,14 +1,16 @@
 :root {
-  --dark-cyan:#0E8784;
-  --dark-grey-blue:#333D4B;
-  --Pale-Orange:#FDD6BA;
-  --Light-Cream-bg:#FEFCF7;
-  --Grey:#83888F;
-  --bg-color: #0E8784;
-  --bg-colors:#66D2CF;
+  --dark-cyan: #0e8784;
+  --dark-grey-blue: #333d4b;
+  --pale-orange: #fdd6ba;
+  --light-cream-bg: #fefcf7;
+  --gray: #83888f;
+  --preferance-bg: #f4f1eb;
+  --button-hover: #66d2cf;
+  --button-disabeled: #e2dedb;
 
-
-
+  /* fonts */
+  --title-font-family: "Fraunces", sans;
+  --main-font-family: "Barlow", sans-serif;
 }
 
 
