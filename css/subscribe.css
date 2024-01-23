@@ -1,0 +1,76 @@
+.create_plan{
+    background-image: url('../images/plan/desktop/image-hero-blackcup.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--light-cream-bg);
+    padding: 137px 125px;
+    border-radius: 10px;
+    margin-bottom: 168px;
+}
+.create_title{
+    color: #FEFCF7;
+    width: 427px;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 10px 86px;
+    margin-bottom: 32px;
+}
+.create_desc{
+    width: 445px;
+    color: #FEFCF7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 86px;
+}
+.ask_to{
+    background-color: #333D4B;
+    
+}
+.ask_ring{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FDD6BA;
+    height: 1px;
+    width: 760px;
+
+    margin-bottom: 100px;
+    margin: 140px 86px;
+ }
+ .ring{
+     border: 2px solid #0E8784;
+     width: 31px;
+     height: 31px;
+     border-radius: 50%;   
+ }
+ .plan_container {
+    display: flex;
+    align-items: center;
+    gap: 95px;
+    margin-bottom: 200px;
+}
+.choose_item {
+    color: #FDD6BA;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 38px;
+}
+.choose_title {
+    width: 255px;
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 42px;
+}
+.choose_desc {
+    width: 285px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 64px;
+}

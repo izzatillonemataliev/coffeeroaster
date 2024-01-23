@@ -1,0 +1,119 @@
+.why_content{
+    flex-shrink: 0;
+    text-align: center;
+    background-color: #2C343E;
+    padding: 112px;
+    margin-bottom: -240px;
+    height: 800px;
+    color:var(--light-cream-bg);
+  }
+  .why_item {
+    margin-bottom: 32px;
+    color: #FEFCF7;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+  
+  }
+  .why_title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FEFCF7;
+    width: 540px;
+    height: 80px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+
+  .best{
+    margin: auto;
+    background-color: #0E8784;
+    width: 350px;
+    height: 382px;
+    border-radius: 8px;
+    margin-bottom: 300px;
+    padding: 40px 0;
+}
+.best_img {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.best_title {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #FEFCF7;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+}
+.best_description {
+  margin: auto;
+  width: 255px;
+  color: #FEFCF7;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+.hiw_ring{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #FDD6BA;
+   height: 1px;
+   width: 760px;
+   margin-bottom: 100px;
+}
+.ring{
+    border: 2px solid #0E8784;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;   
+}
+
+.plan_container {
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+.choose_item {
+    color: #FDD6BA;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 38px;
+}
+.choose_title {
+    width: 255px;
+    color: #333D4B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 42px;
+}
+.choose_desc {
+    width: 285px;
+    color: #333D4B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 64px;
+}
+.choose_btn{
+    padding: 16px 31px;
+    margin: 0 150px;
+    border: none;
+    background-color: #0E8784;
+    border-radius: 6px;
+    color: #FEFCF7;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 200px;
+}
+.choose_btn:hover{
+  background-color: #66D2CF;
+  color: #fff;
+}

@@ -1,0 +1,123 @@
+/* About hero section start */
+.hero_container{
+    background-color: #a2a2a2;
+    background-image: linear-gradient(rgba(0 , 0 , 0,40%) , rgba(0 , 0 , 0,40%)),
+    url('../images/about/desktop/image-hero-whitecup.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--light-cream-bg);
+    padding: 137px 85px;
+    border-radius: 10px;
+    margin-bottom: 168px;
+}
+
+.hero_content{
+    width: 445px;
+}
+
+.hero_title{
+    margin-bottom: 24px;
+}
+/* About hero section end */
+
+
+/* Commitment section start */
+.commitment{
+    margin-bottom: 256px
+}
+.commitment_container{
+    display: flex;
+    gap: 125px;
+    align-items: center;
+    justify-content: center;
+}
+.commitment_image{
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+.commitment_title{
+    margin-bottom: 32px;
+}
+/* Commitment section end */
+
+/* Quality start */
+
+.quality{
+    margin-bottom: 126px;
+}
+.quality_container{
+    display: flex;
+    gap: 125px;
+    padding: 88px 85px;
+    background-color: var(--footer-bg);
+    color: var(--light-cream-bg);
+    border-radius: 10px;
+}
+.quality__content{
+    width: 100%;
+    max-width: 540px;
+}
+.quality_title{
+    margin-bottom: 32px;
+}
+.branches_item_title{
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.quality_image{
+    border-radius: 8px;
+    margin-top: -176px;
+}
+/* Quality end */
+
+/* Brenches start */
+.branches{
+    margin-bottom: 168px;
+}
+.branches_conatainer{
+    width: 100%;
+    width: 1145px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.branches_title{
+    margin-bottom: 72px;
+    color: var(--gray);
+}
+.branches_list{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 95px;
+}
+.branches_item_image{
+    margin-bottom: 45px;
+}
+.branches_item_title{
+    margin-bottom: 24px;
+    width: 285px;
+}
+.branches_item_phone{
+    color: inherit;
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.branches_item_phone:hover{
+    color: var(--button-hover);
+}
+/* Branches end */
+
+
+
+
+
+

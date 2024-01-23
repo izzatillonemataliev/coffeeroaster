@@ -7,6 +7,8 @@
   --preferance-bg: #f4f1eb;
   --button-hover: #66d2cf;
   --button-disabeled: #e2dedb;
+  --footer-bg:#2C343E;
+  --transition: duraction;
 
   /* fonts */
   --title-font-family: "Fraunces", sans;
@@ -61,6 +63,7 @@
   box-sizing: border-box;
 }
 *:focus {
+  outline: 2px dotted var(--button-hover);
 }
 a {
   text-decoration: none;
@@ -73,8 +76,29 @@ ol {
 h1,
 h2,
 h3,
-h4{
+h4 {
   font-family: var(--title-font-family);
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 72px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 32px;
 }
 h1 {
   font-size: 72px;
@@ -82,7 +106,12 @@ h1 {
   margin: 0;
 }
 
-
+h1,h2,h3.h4{
+  font-family: var(--title-font-family);
+}
+address{
+  font-style: normal;
+}
 img {
   display: flex;
   object-fit: cover;
@@ -96,15 +125,173 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  font-family: var(--main-font-family);
 }
 main {
   flex-grow: 1;
 }
 .container {
   width: 100%;
-  max-width: 1340px;
+  max-width: 1240px;
   padding-left: 30px;
   padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+/* header start */
+.header {
+  padding: 43px 0;
+}
+.header_conatiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo {
+  transition: var(--transtion-duratcion);
+}
+
+.sitenav_list {
+  display: flex;
+  gap: 33px;
+  
+}
+
+.site_links {
+  color: var(--gray);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px; 
+  letter-spacing: 0.923px;
+  transition: var(--transtion-duratcion);
+  text-transform: uppercase;
+}
+.site_links:hover{
+  color: var(--dark-grey-blue);
+  opacity: 0.8;
+}
+.site_links:active{
+  opacity: 0.6;
+}
+.site-logo :hover{
+  opacity: 0.8;
+}
+.site-logo:active{
+  opacity: 0.6;
+}
+/* header end */
+
+
+
+/* main start div */
+.main_container{
+  width: 1280px;
+  height: 600px;
+  top: 113px;
+  left: 80px;
+  background-image: url('../images/home/desktop/image-hero-coffeepress.jpg');
+  background-repeat: no-repeat; 
+  margin: 0 140px;
+  margin-bottom: 100px;
+  padding: 100px 0;
+  
+}
+.main_box{
+  margin: 0 86px;
+}
+.main_item {
+  width: 493px;
+  height: 145px;
+  margin-bottom: 32px;
+  color: var(--light-cream-bg);
+
+}
+.main_descripition {
+  width: 445px;
+  height: 78px;
+  top: 177px;
+  opacity: 0.8px;
+  margin-bottom: 60px;
+  color: var(--light-cream-bg);
+  font-weight: 400;
+}
+.main_btn {
+  width: 217px;
+  height: 56px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0E8784;
+}
+.main_btn:hover{
+  background-color: #66D2CF;
+  color: #fff;
+}
+.main_item {
+  width: 493px;
+  height: 145px;
+  color: #FEFCF7;
+}
+ /* main end div */ 
+.content_bg-img{
+  margin: 0 200px;
+  margin-bottom: -50px;
+}
+ .content_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+ }
+.content_item-img{
+  margin-bottom: 72px;
+}
+.content_item-title{
+  color: #333d4b;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.content_item-text{
+  width: 255px;
+  color: #333D4B;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 188px;
+}
+/* main end section */
+
+
+/* main start section why */
+
+.coffea_best{
+  display: flex;
+  align-items: center;
+}
+
+
+/* footer start */
+.footer {
+  padding-bottom: 88px;
+}
+.footer_container{
+  background-color: var(--footer-bg);
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 47px;
+  width: 1200px;
+}
+.site-logo {
+  margin-right: 102px;
+}
+.footer_sitenav {
+  margin-right: auto;
+}
+
+.footer_socials-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
